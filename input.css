@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-cyan: #06b6d4;
+  --color-brand-blue: #3b82f6;
+  --color-brand-dark: #0f172a;
+  --color-brand-surface: #1e293b;
+}
+
+@utility avatar-glow {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.3);
+}
